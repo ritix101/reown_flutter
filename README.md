@@ -1,6 +1,6 @@
 # **Reown - Flutter**
 
-The communications protocol for web3, Reown brings the ecosystem together by enabling hundreds of wallets and apps to securely connect and interact. This repository contains Flutter implementation of WalletConnect protocol for Flutter applications.
+Reown is a communications protocol for web3 that brings the ecosystem together by enabling hundreds of wallets and apps to securely connect and interact. This repository contains the Flutter implementation of the WalletConnect protocol for Flutter applications.
 
 ## SDK Chart
 
@@ -10,11 +10,15 @@ The communications protocol for web3, Reown brings the ecosystem together by ena
 
 ## License
 
-Reown is released under the Apache 2.0 license. [See LICENSE](/LICENSE) for details.
+Reown is released under the Apache 2.0 license. For more details, see the [LICENSE](/LICENSE).
 
-### Generate project dependencies
+### Generate Project Dependencies
 
-- Run `sh scripts/generate_all.sh` in the root folder to generate dependencies.
+To generate dependencies, run the following command in the root folder:
+
+```bash
+sh scripts/generate_all.sh
+
 
 ### Run WalletKit Sample
 
@@ -23,19 +27,20 @@ Reown is released under the Apache 2.0 license. [See LICENSE](/LICENSE) for deta
 
 You can add your own keys for testing purposes as follows:
 
-`--dart-define=ETH_SECRET_KEY=your mnemonic phrase....`
+--dart-define=ETH_SECRET_KEY=your mnemonic phrase....
 
-`--dart-define=KADENA_SECRET_KEY=5fgQC1.........`
+--dart-define=KADENA_SECRET_KEY=5fgQC1.........
 
-`--dart-define=KADENA_ADDRESS=5fgQC1.........`
+--dart-define=KADENA_ADDRESS=5fgQC1.........
 
-`--dart-define=SOLANA_SECRET_KEY=5fgQC1.........`
+--dart-define=SOLANA_SECRET_KEY=5fgQC1.........
 
-`--dart-define=SOLANA_ADDRESS=DbfmtKwL.........`
+--dart-define=SOLANA_ADDRESS=DbfmtKwL.........
 
-`--dart-define=POLKADOT_MNEMONIC=your mnemonic phrase....`
+--dart-define=POLKADOT_MNEMONIC=your mnemonic phrase....
 
-`--dart-define=POLKADOT_ADDRESS=DbfmtKwL.........`
+--dart-define=POLKADOT_ADDRESS=DbfmtKwL.........
+
 
 _NB: WalletKit sample is intended to be used just as an explanatory project_
 
